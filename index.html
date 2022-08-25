@@ -1,43 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Profile card component</title>
-  <link rel="stylesheet" href="style.css">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-</head>
-<body>
-<div class="container">
-  <div class="image"><img src="images/bg-pattern-card.svg" alt="" class="back_img"></div>
-  <img src="images/image-victor.jpg" alt="" class="profile">
-  
-    <div class="content">
-      <h1>
-        Victor Crest  <span class="num">26</span>
-      </h1>
-      <p class="text">London</p>
+    <title>Frontend Mentor | Profile card component</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h1 class="sr-only">Profile Card Component</h1>
+      <div class="image">
+        <img src="images/bg-pattern-card.svg" alt="" class="back_img" />
       </div>
-      <hr>
+      <img
+        src="images/image-victor.jpg"
+        alt="victor_profile_pic"
+        class="profile"
+      />
+
+      <div class="content">
+        <h1>Victor Crest <span class="num">26</span></h1>
+        <p class="text">London</p>
+      </div>
+      <hr />
       <div class="footer">
-      
         <p class="item">
-          80K<br>
+          80K<br />
           <span class="value">Followers</span>
         </p>
         <p class="item">
-          803K<br>
+          803K<br />
           <span class="value">Likes</span>
         </p>
         <p class="item">
-          1.4K<br>
+          1.4K<br />
           <span class="value">Photos</span>
         </p>
       </div>
-</div>
-  </div>
-</body>
+    </main>
+  </body>
 </html>
